@@ -5,12 +5,16 @@
         "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
+        "customColorsWhite": "E8F8E0",
+        "customColorsLight": "B0F088",
+        "customColorsDark": "509878",
+        "customColorsBlack": "202850",
         "startMapId": "cb5e225f-e996-4ca8-b068-09a12ec18b75",
-        "startX": 0,
-        "startY": 0,
+        "startX": 9,
+        "startY": 9,
         "startDirection": "right",
-        "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+        "startSceneId": "39d41ee0-de88-4e9e-9791-fcf42f15fccc",
+        "playerSpriteSheetId": "3df0f6e1-ac2c-474a-9228-dcb4743fe9c9"
     },
     "scenes": [
         {
@@ -2308,6 +2312,18 @@
                     "command": "EVENT_END"
                 }
             ]
+        },
+        {
+            "name": "Scene 9",
+            "backgroundId": "9b466f0b-2c91-4c1d-ba0e-7870ab00d728",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "id": "39d41ee0-de88-4e9e-9791-fcf42f15fccc",
+            "x": 586,
+            "y": 603,
+            "actors": [],
+            "triggers": []
         }
     ],
     "_version": "1.2.0",
@@ -2376,7 +2392,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -2386,7 +2402,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -2396,7 +2412,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -2406,7 +2422,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -2416,7 +2432,17 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
+        },
+        {
+            "id": "9b466f0b-2c91-4c1d-ba0e-7870ab00d728",
+            "name": "screen-test",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "screen-test.png",
+            "_v": 1587305211361
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -2426,7 +2452,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -2436,7 +2462,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -2446,7 +2472,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         }
     ],
     "spriteSheets": [
@@ -2456,7 +2482,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -2464,7 +2490,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -2472,7 +2498,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -2480,7 +2506,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -2488,7 +2514,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -2496,7 +2522,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -2504,7 +2530,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -2512,7 +2538,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -2520,7 +2546,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -2528,7 +2554,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -2536,7 +2562,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -2544,7 +2570,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -2552,7 +2578,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "000a6dde-cb60-436e-b357-30a529daa139",
@@ -2560,7 +2586,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -2568,7 +2594,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
@@ -2576,7 +2602,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "_v": 1561400015284
+            "_v": 1587305211361
+        },
+        {
+            "id": "3df0f6e1-ac2c-474a-9228-dcb4743fe9c9",
+            "name": "zelda",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "zelda.png",
+            "_v": 1587305211361
         }
     ],
     "music": [
@@ -2584,7 +2618,8 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1561400015282
+            "_v": 1587305211361
         }
-    ]
+    ],
+    "customEvents": []
 }
