@@ -14,7 +14,31 @@
         "startY": 11,
         "startDirection": "down",
         "startSceneId": "7c7a310a-44ec-4a62-9c9d-21a810526782",
-        "playerSpriteSheetId": "3df0f6e1-ac2c-474a-9228-dcb4743fe9c9"
+        "playerSpriteSheetId": "3df0f6e1-ac2c-474a-9228-dcb4743fe9c9",
+        "customControlsUp": [
+            "ArrowUp"
+        ],
+        "customControlsDown": [
+            "ArrowDown"
+        ],
+        "customControlsLeft": [
+            "ArrowLeft"
+        ],
+        "customControlsRight": [
+            "ArrowRight"
+        ],
+        "customControlsA": [
+            "2"
+        ],
+        "customControlsB": [
+            "1"
+        ],
+        "customControlsStart": [
+            "."
+        ],
+        "customControlsSelect": [
+            "0"
+        ]
     },
     "scenes": [
         {
