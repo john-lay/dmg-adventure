@@ -2518,6 +2518,41 @@
                             "id": "712831d0-c245-4596-93fb-115441d5a00e",
                             "command": "EVENT_END"
                         }
+                    ],
+                    "startScript": [
+                        {
+                            "id": "7917884d-4b8d-49fc-9a9e-9d67c320f418",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "0",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "be481ce6-ae46-4aa8-aada-38700108ee69",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "b8a85274-c505-4f91-b6c9-a66b4239717e"
+                                        }
+                                    },
+                                    {
+                                        "id": "d3e55fb8-beae-476c-95a6-d404f0df171a",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "c11068a8-05e0-4c51-90ee-b0f9ae02ebd9",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f00a2306-beb0-40da-8f28-ce1fda415df5",
+                            "command": "EVENT_END"
+                        }
                     ]
                 },
                 {
