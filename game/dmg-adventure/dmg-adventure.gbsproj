@@ -2,7 +2,7 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2125,
+        "worldScrollX": 2268,
         "worldScrollY": 1718,
         "zoom": 300,
         "customColorsWhite": "E8F8E0",
@@ -2338,7 +2338,7 @@
             ]
         },
         {
-            "name": "start",
+            "name": "vision henge",
             "backgroundId": "a68b6c1e-de32-48c1-9ac4-a75a5f659fc1",
             "width": 20,
             "height": 18,
@@ -3200,7 +3200,8 @@
                             "args": {
                                 "variable": "L2",
                                 "__collapseElse": false,
-                                "__disableElse": true
+                                "__disableElse": true,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -4391,7 +4392,8 @@
                     "id": "f6f00882-73b2-4c3e-b7c0-1d7757793b90",
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "input": "select"
+                        "input": "select",
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
