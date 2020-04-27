@@ -3221,8 +3221,8 @@
                                                     "args": {
                                                         "variable": "L3",
                                                         "value": "0",
-                                                        "__collapse": true,
-                                                        "__label": "init hitOffset to 0"
+                                                        "__collapse": false,
+                                                        "__label": "init hitArea to 0"
                                                     }
                                                 },
                                                 {
