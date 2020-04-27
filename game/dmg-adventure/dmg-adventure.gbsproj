@@ -4416,33 +4416,6 @@
                     }
                 },
                 {
-                    "id": "f6f00882-73b2-4c3e-b7c0-1d7757793b90",
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": "select",
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "id": "0017b13e-4dd2-47b4-9e6b-663c538c02a2",
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "mx=$L0$ my=$L1$\nwx=$02$ wy=$03$"
-                                    ],
-                                    "avatarId": ""
-                                },
-                                "__type": "event"
-                            },
-                            {
-                                "id": "b4e64da5-7cd6-402b-9425-d3268f8ef44d",
-                                "command": "EVENT_END"
-                            }
-                        ]
-                    }
-                },
-                {
                     "id": "a9e60c76-ca66-42cb-9b96-e17d7b36329d",
                     "command": "EVENT_END"
                 }
@@ -4813,7 +4786,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1588015909962
+            "_v": 1588016814838
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
