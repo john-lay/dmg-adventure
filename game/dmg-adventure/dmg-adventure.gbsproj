@@ -3636,6 +3636,14 @@
                                                                 "children": {
                                                                     "true": [
                                                                         {
+                                                                            "id": "f42e7f99-4ac3-4409-8d30-6d806f1ab091",
+                                                                            "command": "EVENT_COMMENT",
+                                                                            "args": {
+                                                                                "text": "1/3 chance rupee, heart or nothing",
+                                                                                "__collapse": true
+                                                                            }
+                                                                        },
+                                                                        {
                                                                             "id": "ffe0898b-55b2-4fa5-b5a6-8a00c7be6df7",
                                                                             "command": "EVENT_VARIABLE_MATH",
                                                                             "args": {
@@ -3706,7 +3714,7 @@
                                                                                 "actorId": "801d2e44-cd0b-4455-b8e1-50d99a61fc93",
                                                                                 "vectorX": "L0",
                                                                                 "vectorY": "L1",
-                                                                                "__collapse": false
+                                                                                "__collapse": true
                                                                             },
                                                                             "__type": "event"
                                                                         },
@@ -3717,7 +3725,7 @@
                                                                                 "actorId": "605375e3-a046-4a68-9a84-0b660a1fb147",
                                                                                 "vectorX": "L0",
                                                                                 "vectorY": "L1",
-                                                                                "__collapse": false
+                                                                                "__collapse": true
                                                                             }
                                                                         },
                                                                         {
@@ -3734,6 +3742,22 @@
                                                                             "command": "EVENT_ACTOR_SHOW",
                                                                             "args": {
                                                                                 "actorId": "605375e3-a046-4a68-9a84-0b660a1fb147",
+                                                                                "__collapse": true
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "80021258-901c-4ad1-913c-cb27e2a7b5dd",
+                                                                            "command": "EVENT_SET_FLAGS",
+                                                                            "args": {
+                                                                                "variable": "7",
+                                                                                "flag1": true,
+                                                                                "flag2": false,
+                                                                                "flag3": false,
+                                                                                "flag4": false,
+                                                                                "flag5": false,
+                                                                                "flag6": false,
+                                                                                "flag7": false,
+                                                                                "flag8": false,
                                                                                 "__collapse": true
                                                                             }
                                                                         },
@@ -3761,7 +3785,7 @@
                                                                                 "actorId": "605375e3-a046-4a68-9a84-0b660a1fb147",
                                                                                 "vectorX": "L0",
                                                                                 "vectorY": "L1",
-                                                                                "__collapse": false
+                                                                                "__collapse": true
                                                                             },
                                                                             "__type": "event"
                                                                         },
@@ -3780,6 +3804,23 @@
                                                                             "command": "EVENT_ACTOR_SHOW",
                                                                             "args": {
                                                                                 "actorId": "605375e3-a046-4a68-9a84-0b660a1fb147",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "__type": "event"
+                                                                        },
+                                                                        {
+                                                                            "id": "3be81bc6-a58a-4a84-8fef-fe99fccc25d8",
+                                                                            "command": "EVENT_SET_FLAGS",
+                                                                            "args": {
+                                                                                "variable": "7",
+                                                                                "flag1": false,
+                                                                                "flag2": true,
+                                                                                "flag3": false,
+                                                                                "flag4": false,
+                                                                                "flag5": false,
+                                                                                "flag6": false,
+                                                                                "flag7": false,
+                                                                                "flag8": false,
                                                                                 "__collapse": true
                                                                             },
                                                                             "__type": "event"
@@ -4534,6 +4575,126 @@
                                 "actorId": "player",
                                 "emoteId": "2"
                             }
+                        },
+                        {
+                            "id": "f09abc23-be14-46d5-b399-984b0607458f",
+                            "command": "EVENT_IF_FLAGS_COMPARE",
+                            "args": {
+                                "variable": "7",
+                                "flag": "0",
+                                "__collapseElse": false,
+                                "__label": "if rupee",
+                                "__comment": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "49cceb7d-256e-455c-a28a-33f2e92b0fbf",
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "rupee + 5",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "0d9e63f6-41be-477a-bb28-4fa0f4a2542e",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "8",
+                                                        "__collapse": true
+                                                    }
+                                                },
+                                                {
+                                                    "id": "87ddba01-fdc6-4969-a231-49039131ef72",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "8",
+                                                        "__collapse": true
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
+                                                    "id": "211ce603-eb2f-4996-8a94-3eef8bdefa0b",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "8",
+                                                        "__collapse": true
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
+                                                    "id": "930543b9-eed1-4f44-9ee3-bd27f533d031",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "8",
+                                                        "__collapse": true
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
+                                                    "id": "4a647933-dc5d-472b-bcad-dc6d2264cd1d",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "8",
+                                                        "__collapse": true
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
+                                                    "id": "27836076-dd3f-44c8-a353-83486fa4f10e",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "b6cbf8fa-5e8a-48bf-87e4-9610899b2e56",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "605375e3-a046-4a68-9a84-0b660a1fb147"
+                                        }
+                                    },
+                                    {
+                                        "id": "ae13a907-5a47-4b50-95fa-83d8c534285d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "99825f09-edd9-4ecf-892f-031006d8ca60",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "362e5637-e374-408c-90eb-f7cde36a581a",
+                            "command": "EVENT_IF_FLAGS_COMPARE",
+                            "args": {
+                                "variable": "7",
+                                "flag": "1",
+                                "__collapseElse": false,
+                                "__label": "if heart",
+                                "__comment": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "30f43407-c5bc-46b6-b6c2-1d79d706e86c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "e878dd66-1532-4347-a166-a09adb1c016a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            },
+                            "__type": "event"
                         },
                         {
                             "id": "490cbf67-1a49-4912-bed7-75ad3cbe7afd",
@@ -5541,7 +5702,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": "b",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -5575,7 +5736,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "init hearts",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -5631,7 +5792,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": "select",
-                        "__collapse": true,
+                        "__collapse": false,
                         "__comment": false
                     },
                     "children": {
@@ -5661,7 +5822,8 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "zelda x=$L0$,\ny=$L1$\nmob x=$L2$, y=$L3$"
+                                        "rupee = $08$\nzelda\nx=$L0$, y=$L1$",
+                                        ""
                                     ],
                                     "avatarId": ""
                                 }
@@ -5714,11 +5876,11 @@
         },
         {
             "id": "7",
-            "name": "Quest4"
+            "name": "collectable"
         },
         {
             "id": "8",
-            "name": "Quest5"
+            "name": "rupees"
         },
         {
             "id": "9",
