@@ -3,7 +3,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 995,
-        "worldScrollY": 1518,
+        "worldScrollY": 1818,
         "zoom": 300,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -11565,7 +11565,7 @@
                             "args": {
                                 "variable": "0",
                                 "__collapseElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -11594,7 +11594,7 @@
                                         "id": "55d9ed4f-c5ca-405f-9942-baf0a51a9bf7",
                                         "command": "EVENT_IF_ACTOR_DIRECTION",
                                         "args": {
-                                            "actorId": "$self$",
+                                            "actorId": "player",
                                             "direction": "up",
                                             "__collapseElse": false,
                                             "__collapse": false
@@ -12141,7 +12141,7 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": "b",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
