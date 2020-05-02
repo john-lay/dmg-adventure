@@ -4,9 +4,11 @@
  <tileset firstgid="97" source="overworld-1.tsx"/>
  <tileset firstgid="145" source="animated-tiles.tsx"/>
  <tileset firstgid="369" source="overworld-2.tsx"/>
+ <tileset firstgid="945" source="dungeon-items.tsx"/>
+ <tileset firstgid="961" source="items-2.tsx"/>
  <layer id="1" name="Tile Layer 1" width="20" height="18">
   <data encoding="csv">
-59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,
+77,960,77,77,1009,77,77,77,77,77,77,77,77,77,77,958,958,958,77,77,
 77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,
 59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,59,77,
 77,59,1,2,3,4,77,59,77,59,77,59,77,59,77,59,77,59,77,59,
