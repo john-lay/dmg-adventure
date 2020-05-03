@@ -12,6 +12,8 @@ Sprites created/modified with Photoshop and exported with the following settings
 
 
 ## New Scene checklist
+The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
+
 Due to a bug where copy and pasted events default the affected actor to the player (currently using GB Studio 1.2.1) a number of scene initialisation scripts need to be manually adjusted. Here's a reminder (mainly for me) of what needs to be set up:
 * Copy the `firerod animated` actor to the new scene
 * Copy the `hide wand` script from the _vision henge_ `On Init` to the new scene's `On Init`
