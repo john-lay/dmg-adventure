@@ -2,7 +2,7 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2892,
+        "worldScrollX": 1271,
         "worldScrollY": 1331,
         "zoom": 275,
         "customColorsWhite": "E8F8E0",
@@ -4192,8 +4192,8 @@
                 0
             ],
             "id": "92812dc9-9eb2-4b7b-b6e9-0ebb5d947ae0",
-            "x": 1110.2303030303026,
-            "y": 605.3999999999993,
+            "x": 1110.5939393939389,
+            "y": 605.7636363636357,
             "actors": [
                 {
                     "spriteSheetId": "6263703d-711d-458a-b7da-4c4fd60d03b3",
@@ -9221,8 +9221,8 @@
             ]
         },
         {
-            "name": "fissure rock",
-            "backgroundId": "51b6ed7c-f540-4cfa-9d54-427a7c26a94c",
+            "name": "tree rock",
+            "backgroundId": "c5c820b4-6d80-4250-abf8-5162c62a8678",
             "width": 20,
             "height": 18,
             "collisions": [
@@ -9244,15 +9244,15 @@
                 80,
                 0,
                 0,
-                5,
+                197,
                 0,
                 80,
                 12,
                 0,
-                205,
+                201,
                 0,
                 144,
-                0,
+                12,
                 0,
                 9,
                 0,
@@ -21944,13 +21944,13 @@
     ],
     "backgrounds": [
         {
-            "id": "51b6ed7c-f540-4cfa-9d54-427a7c26a94c",
-            "name": "fissure-rock",
+            "id": "2482ffee-b1eb-467d-8d1d-993c23df4897",
+            "name": "moblin-west",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "fissure-rock.png",
+            "filename": "moblin-west.png",
             "_v": 1588510109770
         },
         {
@@ -21964,16 +21964,6 @@
             "_v": 1588510109770
         },
         {
-            "id": "2482ffee-b1eb-467d-8d1d-993c23df4897",
-            "name": "moblin-west",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "moblin-west.png",
-            "_v": 1588510109770
-        },
-        {
             "id": "d3868e13-2094-40af-bfb2-866245ddbc8d",
             "name": "octorok-east",
             "width": 20,
@@ -21982,6 +21972,16 @@
             "imageHeight": 144,
             "filename": "octorok-east.png",
             "_v": 1588510109770
+        },
+        {
+            "id": "c5c820b4-6d80-4250-abf8-5162c62a8678",
+            "name": "tree-rock",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "tree-rock.png",
+            "_v": 1588522601249
         },
         {
             "id": "8c985dd7-c6f6-4e39-ae68-88515855efd4",
