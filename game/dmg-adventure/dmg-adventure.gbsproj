@@ -2,18 +2,18 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 595,
-        "worldScrollY": 500,
+        "worldScrollX": 2187,
+        "worldScrollY": 0,
         "zoom": 325,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
         "customColorsBlack": "202850",
         "startMapId": "cb5e225f-e996-4ca8-b068-09a12ec18b75",
-        "startX": 4,
-        "startY": 12,
+        "startX": 6,
+        "startY": 11,
         "startDirection": "down",
-        "startSceneId": "e5f41bea-59db-49c3-a039-d81f191d566c",
+        "startSceneId": "c99cceb1-f9fc-4971-a2ac-09397e1e423a",
         "playerSpriteSheetId": "3df0f6e1-ac2c-474a-9228-dcb4743fe9c9",
         "customControlsUp": [
             "ArrowUp"
@@ -6928,7 +6928,7 @@
                                         "id": "440e537b-10f2-4854-bad2-ffedcde77e37",
                                         "command": "EVENT_COMMENT",
                                         "args": {
-                                            "text": "The most likely area of overlap is between the bottom half of the moblin and the top half of zelda.",
+                                            "text": "The most likely area of overlap is between the bottom half of the enemy and the top half of zelda.",
                                             "__collapse": true
                                         }
                                     },
@@ -14070,7 +14070,7 @@
                                         "id": "88d35dac-3983-41a7-9f00-74f5f0db6e31",
                                         "command": "EVENT_COMMENT",
                                         "args": {
-                                            "text": "The most likely area of overlap is between the bottom half of the moblin and the top half of zelda.",
+                                            "text": "The most likely area of overlap is between the bottom half of the enemy and the top half of zelda.",
                                             "__collapse": true
                                         }
                                     },
@@ -19358,7 +19358,7 @@
                                         "id": "72e74fb9-78fa-4458-883b-a2cc7b3ebb83",
                                         "command": "EVENT_COMMENT",
                                         "args": {
-                                            "text": "The most likely area of overlap is between the bottom half of the moblin and the top half of zelda.",
+                                            "text": "The most likely area of overlap is between the bottom half of the enemy and the top half of zelda.",
                                             "__collapse": true
                                         }
                                     },
@@ -23883,7 +23883,7 @@
                     "animSpeed": "3",
                     "id": "51fae423-22ed-4ce6-a517-558c771568f3",
                     "x": 8,
-                    "y": 6,
+                    "y": 7,
                     "name": "octorok",
                     "script": [
                         {
@@ -24760,7 +24760,8 @@
                             "id": "e9abec22-67d1-48e8-adc6-75b15057d435",
                             "command": "EVENT_END"
                         }
-                    ]
+                    ],
+                    "animate": false
                 },
                 {
                     "spriteSheetId": "ac74a62d-61c1-423b-b1a0-48aeb5506d18",
@@ -26692,7 +26693,7 @@
                                         "id": "f5abf1e0-e10f-44cb-9f2f-94ea7b6c5641",
                                         "command": "EVENT_COMMENT",
                                         "args": {
-                                            "text": "The most likely area of overlap is between the bottom half of the moblin and the top half of zelda.",
+                                            "text": "The most likely area of overlap is between the bottom half of the enemy and the top half of zelda.",
                                             "__collapse": true
                                         }
                                     },
@@ -31235,15 +31236,15 @@
             "y": 33.999999999999986,
             "actors": [
                 {
-                    "spriteSheetId": "c2c3a058-55d7-4fbb-9b5d-2a3a1e00e6fd",
+                    "spriteSheetId": "cf6a8f68-5a72-40c2-9d6b-70d75e146905",
                     "movementType": "randomWalk",
                     "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
+                    "moveSpeed": "3",
+                    "animSpeed": "2",
                     "id": "bff2f469-cbdc-4eca-bb4f-2697f4fced56",
                     "x": 8,
                     "y": 6,
-                    "name": "octorok",
+                    "name": "zol",
                     "script": [
                         {
                             "id": "86db6006-1198-401d-b0bf-cb307cf45287",
@@ -32119,7 +32120,8 @@
                             "id": "e9abec22-67d1-48e8-adc6-75b15057d435",
                             "command": "EVENT_END"
                         }
-                    ]
+                    ],
+                    "animate": true
                 },
                 {
                     "spriteSheetId": "ac74a62d-61c1-423b-b1a0-48aeb5506d18",
@@ -34051,7 +34053,7 @@
                                         "id": "a7c7211d-ef9a-4d55-9eff-935d4a5aea70",
                                         "command": "EVENT_COMMENT",
                                         "args": {
-                                            "text": "The most likely area of overlap is between the bottom half of the moblin and the top half of zelda.",
+                                            "text": "The most likely area of overlap is between the bottom half of the enemy and the top half of zelda.",
                                             "__collapse": true
                                         }
                                     },
@@ -41360,7 +41362,7 @@
                                         "id": "67a8b053-b037-41cc-99e5-bfc16808ac27",
                                         "command": "EVENT_COMMENT",
                                         "args": {
-                                            "text": "The most likely area of overlap is between the bottom half of the moblin and the top half of zelda.",
+                                            "text": "The most likely area of overlap is between the bottom half of the enemy and the top half of zelda.",
                                             "__collapse": true
                                         }
                                     },
@@ -43972,16 +43974,6 @@
     ],
     "backgrounds": [
         {
-            "id": "2482ffee-b1eb-467d-8d1d-993c23df4897",
-            "name": "moblin-west",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "moblin-west.png",
-            "_v": 1588628011498
-        },
-        {
             "id": "faebf1fa-a005-42d0-a33b-911bdc02e1c0",
             "name": "moblin",
             "width": 20,
@@ -43989,7 +43981,17 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "moblin.png",
-            "_v": 1588628011498
+            "_v": 1588669584845
+        },
+        {
+            "id": "2482ffee-b1eb-467d-8d1d-993c23df4897",
+            "name": "moblin-west",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "moblin-west.png",
+            "_v": 1588669584851
         },
         {
             "id": "d3868e13-2094-40af-bfb2-866245ddbc8d",
@@ -43999,57 +44001,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "octorok-east.png",
-            "_v": 1588628011498
-        },
-        {
-            "id": "22aab2c4-dfe0-4368-aeba-d1dd82141ec8",
-            "name": "river-mouth-east-1",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "river-mouth-east-1.png",
-            "_v": 1588628011498
-        },
-        {
-            "id": "d32109f4-bf87-4094-9fe0-b78f96ea78f2",
-            "name": "river-mouth-east-2",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "river-mouth-east-2.png",
-            "_v": 1588628011498
-        },
-        {
-            "id": "0b9dbec9-a4ee-4720-91ce-28fe6fa205e7",
-            "name": "river-mouth-east-3",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "river-mouth-east-3.png",
-            "_v": 1588628011498
-        },
-        {
-            "id": "877741c9-b58b-422b-ac37-ab69e4e16800",
-            "name": "river-mouth-east-4",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "river-mouth-east-4.png",
-            "_v": 1588628067373
-        },
-        {
-            "id": "b01461e5-229f-4d35-84b8-89fb86a01cbd",
-            "name": "river-mouth-south-1",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "river-mouth-south-1.png",
-            "_v": 1588628378069
+            "_v": 1588669584851
         },
         {
             "id": "4aec52cf-2bbb-42da-bbce-8957e076f353",
@@ -44059,7 +44011,57 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "river-mouth.png",
-            "_v": 1588628011498
+            "_v": 1588669584851
+        },
+        {
+            "id": "22aab2c4-dfe0-4368-aeba-d1dd82141ec8",
+            "name": "river-mouth-east-1",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "river-mouth-east-1.png",
+            "_v": 1588669584851
+        },
+        {
+            "id": "d32109f4-bf87-4094-9fe0-b78f96ea78f2",
+            "name": "river-mouth-east-2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "river-mouth-east-2.png",
+            "_v": 1588669584845
+        },
+        {
+            "id": "0b9dbec9-a4ee-4720-91ce-28fe6fa205e7",
+            "name": "river-mouth-east-3",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "river-mouth-east-3.png",
+            "_v": 1588669584851
+        },
+        {
+            "id": "877741c9-b58b-422b-ac37-ab69e4e16800",
+            "name": "river-mouth-east-4",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "river-mouth-east-4.png",
+            "_v": 1588669584851
+        },
+        {
+            "id": "b01461e5-229f-4d35-84b8-89fb86a01cbd",
+            "name": "river-mouth-south-1",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "river-mouth-south-1.png",
+            "_v": 1588669584851
         },
         {
             "id": "c5c820b4-6d80-4250-abf8-5162c62a8678",
@@ -44069,7 +44071,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "tree-rock.png",
-            "_v": 1588628011498
+            "_v": 1588669584851
         },
         {
             "id": "8c985dd7-c6f6-4e39-ae68-88515855efd4",
@@ -44079,7 +44081,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "vision-henge.png",
-            "_v": 1588628011498
+            "_v": 1588669584852
         },
         {
             "id": "54499e11-9afc-4436-836a-fc13b5704cd6",
@@ -44089,7 +44091,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "wand.png",
-            "_v": 1588628011498
+            "_v": 1588669584851
         }
     ],
     "spriteSheets": [
@@ -44099,7 +44101,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "blank.png",
-            "_v": 1588628011498
+            "_v": 1588669584853
         },
         {
             "id": "9ce7c5f0-96b8-4680-bc90-2c42853a0e13",
@@ -44107,15 +44109,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "collectable.png",
-            "_v": 1588628011498
-        },
-        {
-            "id": "c7ce6c94-10f4-4784-81bf-d3fc88f2a277",
-            "name": "firerod",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "firerod.png",
-            "_v": 1588628011498
+            "_v": 1588669584852
         },
         {
             "id": "f57c39dc-4bba-4f64-b90a-42c6b68f1c38",
@@ -44123,7 +44117,7 @@
             "numFrames": 12,
             "type": "animated",
             "filename": "firerod-animated.png",
-            "_v": 1588628011498
+            "_v": 1588669584853
         },
         {
             "id": "ac74a62d-61c1-423b-b1a0-48aeb5506d18",
@@ -44131,7 +44125,15 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "firerod-static.png",
-            "_v": 1588628011498
+            "_v": 1588669584852
+        },
+        {
+            "id": "c7ce6c94-10f4-4784-81bf-d3fc88f2a277",
+            "name": "firerod",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "firerod.png",
+            "_v": 1588669584883
         },
         {
             "id": "40b6c074-dacd-48ef-ae02-ef81d1e68399",
@@ -44139,7 +44141,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "heart.png",
-            "_v": 1588628011498
+            "_v": 1588669584852
         },
         {
             "id": "6263703d-711d-458a-b7da-4c4fd60d03b3",
@@ -44147,7 +44149,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "moblin.png",
-            "_v": 1588628011498
+            "_v": 1588669584853
         },
         {
             "id": "1f91732e-1102-46d5-baa9-58a8e4e8552c",
@@ -44155,7 +44157,7 @@
             "numFrames": 10,
             "type": "animated",
             "filename": "numbers.png",
-            "_v": 1588628011498
+            "_v": 1588669584853
         },
         {
             "id": "c2c3a058-55d7-4fbb-9b5d-2a3a1e00e6fd",
@@ -44163,7 +44165,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "octorok.png",
-            "_v": 1588628011498
+            "_v": 1588669584852
         },
         {
             "id": "f0911e87-b26f-4766-8f52-cfbf5bf8e3d5",
@@ -44171,7 +44173,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "right-arrow.png",
-            "_v": 1588628011498
+            "_v": 1588669584883
         },
         {
             "id": "3df0f6e1-ac2c-474a-9228-dcb4743fe9c9",
@@ -44179,7 +44181,15 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "zelda.png",
-            "_v": 1588628011498
+            "_v": 1588669584883
+        },
+        {
+            "id": "cf6a8f68-5a72-40c2-9d6b-70d75e146905",
+            "name": "zol",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "zol.png",
+            "_v": 1588676560118
         }
     ],
     "music": [
@@ -44187,7 +44197,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1588628011496
+            "_v": 1588669584740
         }
     ],
     "customEvents": []
