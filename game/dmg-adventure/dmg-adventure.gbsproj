@@ -2,8 +2,8 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1019,
-        "worldScrollY": 400,
+        "worldScrollX": 1251,
+        "worldScrollY": 300,
         "zoom": 325,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -664,7 +664,7 @@
                                 "sceneId": "7c7a310a-44ec-4a62-9c9d-21a810526782",
                                 "x": 1,
                                 "y": 9,
-                                "direction": "right",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -689,7 +689,7 @@
                                 "sceneId": "019c50f1-f755-4af8-9497-315275ba3d1c",
                                 "x": 17,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -2761,7 +2761,7 @@
                                 "sceneId": "92812dc9-9eb2-4b7b-b6e9-0ebb5d947ae0",
                                 "x": 1,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -2786,7 +2786,7 @@
                                 "sceneId": "39d41ee0-de88-4e9e-9791-fcf42f15fccc",
                                 "x": 17,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -6873,7 +6873,7 @@
                                 "sceneId": "7c7a310a-44ec-4a62-9c9d-21a810526782",
                                 "x": 17,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -7856,7 +7856,7 @@
                                 "sceneId": "d462148e-ff65-4b1d-98f2-b49589e61b72",
                                 "x": 1,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -9843,7 +9843,7 @@
                                 "sceneId": "39d41ee0-de88-4e9e-9791-fcf42f15fccc",
                                 "x": 1,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -9868,7 +9868,7 @@
                                 "sceneId": "e6d3ee55-a511-4e24-8cd9-341fda28fc3a",
                                 "x": 17,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -15064,7 +15064,7 @@
                                 "sceneId": "019c50f1-f755-4af8-9497-315275ba3d1c",
                                 "x": 1,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -19302,7 +19302,7 @@
                                 "sceneId": "92812dc9-9eb2-4b7b-b6e9-0ebb5d947ae0",
                                 "x": 17,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -22382,7 +22382,7 @@
                                 "sceneId": "c99cceb1-f9fc-4971-a2ac-09397e1e423a",
                                 "x": 1,
                                 "y": 8,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -22407,7 +22407,7 @@
                                 "sceneId": "0beeb4df-f73f-480a-a3bf-f9fccf4f86ae",
                                 "x": 4,
                                 "y": 2,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -26637,7 +26637,7 @@
                                 "sceneId": "e5f41bea-59db-49c3-a039-d81f191d566c",
                                 "x": 17,
                                 "y": 8,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -27687,7 +27687,7 @@
                                 "sceneId": "2957f066-dc93-4005-94fa-c11146a26f98",
                                 "x": 1,
                                 "y": 5,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -27712,7 +27712,7 @@
                                 "sceneId": "1c87a234-d2a2-455d-bb18-9329eed88a65",
                                 "x": 15,
                                 "y": 2,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -29767,7 +29767,7 @@
                                 "sceneId": "c99cceb1-f9fc-4971-a2ac-09397e1e423a",
                                 "x": 17,
                                 "y": 5,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -29792,7 +29792,7 @@
                                 "sceneId": "8f35e557-ed12-4c12-b38b-d8e7bd36ada8",
                                 "x": 1,
                                 "y": 5,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -34022,7 +34022,7 @@
                                 "sceneId": "2957f066-dc93-4005-94fa-c11146a26f98",
                                 "x": 17,
                                 "y": 5,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -35072,7 +35072,7 @@
                                 "sceneId": "a6d790e6-fd41-4f99-ab94-43f35abad4b4",
                                 "x": 1,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -37127,7 +37127,7 @@
                                 "sceneId": "8f35e557-ed12-4c12-b38b-d8e7bd36ada8",
                                 "x": 17,
                                 "y": 9,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -42381,7 +42381,7 @@
                                 "sceneId": "e5f41bea-59db-49c3-a039-d81f191d566c",
                                 "x": 4,
                                 "y": 16,
-                                "direction": "",
+                                "direction": "up",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -42407,7 +42407,7 @@
                                 "sceneId": "1c87a234-d2a2-455d-bb18-9329eed88a65",
                                 "x": 1,
                                 "y": 11,
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -46646,7 +46646,7 @@
                                 "sceneId": "0beeb4df-f73f-480a-a3bf-f9fccf4f86ae",
                                 "x": 17,
                                 "y": 11,
-                                "direction": "",
+                                "direction": "left",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -47696,7 +47696,7 @@
                                 "sceneId": "c99cceb1-f9fc-4971-a2ac-09397e1e423a",
                                 "x": 16,
                                 "y": 16,
-                                "direction": "",
+                                "direction": "up",
                                 "fadeSpeed": "2"
                             }
                         },
