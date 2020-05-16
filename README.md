@@ -4,6 +4,7 @@ A port of Zelda's Adventure for the Philips CD-i to the Gameboy created with [GB
 
 ![screenshot 1](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-1.png)
 ![screenshot 2](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-2.gif)
+![screenshot 3](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-3.gif)
 
 ## Graphics
 Sprites created/modified with Photoshop and exported with the following settings:
@@ -16,6 +17,7 @@ Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame
 * The collision detection triggers can only handle 1 enemy per screen. Any more triggers significant slowdown. 2 enemies is passable, any more is unbearable.
 * The unit counter of ruppees is baked into the background
 * The empty hearts indicator is baked into the background
+* The boomerang can only be thrown on the screen it's found on. (Unlike the original game, it does not cost rupees to throw. Keeping with the original game, it doesn't return to Zelda when thrown)
 
 ## Variable list
 
