@@ -10,6 +10,34 @@ Sprites created/modified with Photoshop and exported with the following settings
 * "Save for Web..." select PNG-8 from the template dropdown
 * Tilemaps created with [Tiled](https://www.mapeditor.org/)
 
+## Compromises due to imposed restrictions
+Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame restrictions are the most challenging and because of there are a number of compromises.
+* On screens without an enemy the wand animation is 3 frames in each direction. On scenes with enemies it is reduced to a single frame
+* The collision detection triggers can only handle 1 enemy per screen. Any more triggers significant slowdown. 2 enemies is passable, any more is unbearable.
+* The unit counter of ruppees is baked into the background
+* The empty hearts indicator is baked into the background
+
+## Variable list
+
+A listing of variables and their types in re-usable components (Actors/Scenes)
+
+### Enemy
+`$L0$: Local 0` Enemy positionX - `number`. (The enemies on screen x position with respects to an origin of top-left)
+`$L0$: Local 1` Enemy positionY - `number`. (The enemies on screen y position with respects to an origin of top-left)
+`$L0$: Local 2` Spawn collectable - `number`. (0-2 Randomly set value. With 0 meaning the enemy dropped a rupee, 1 a heart and 2 nothing)
+`$L0$: Local 3` hitArea - `number`. (0-8 used to check a wand/enemy collision in surrounding tiles, not just 1-2-1 overlap which is rare)
+
+### Global
+`$00$: Variable 000` has wand - `boolean`. (Indicates whether the player has collected the wand)
+`$01$: Variable 001` health - `number`. (0-6 Indicates the number of (half) hearts Zelda has)
+`$02$: Variable 002` wand posX - `number`. (The wand's on screen x position with respects to an origin of top-left)
+`$03$: Variable 003` wand posY - `number`. (The wand's on screen y position with respects to an origin of top-left)
+`$04$: Variable 004` zelda posX - `number`. (Zelda's on screen x position with respects to an origin of top-left)
+`$05$: Variable 005` zelda posY - `number`. (Zelda's on screen y position with respects to an origin of top-left)
+`$06$: Variable 006` enemy isAlive - `number`. (Indicates whether an on screen enemy is alive. Prevents the collision detection from firing again after an enemy is hidden. - should be a local variable)
+`$07$: Variable 007` collectable - `byte`. (Flag 1 represents the enemy dropping a rupee. Flag 2 represents the enemy dropping a heart)
+`$08$: Variable 008` rupees - `number`. (Indicates the number of rupees Zelda has collected)
+`$09$: Variable 009` has ladder - `boolean`. (Indicates whether the player has collected the ladder)
 
 ## New Scene checklist
 The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
