@@ -37,7 +37,12 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
 * `$04$: Variable 004` zelda posX - `number`. (Zelda's on screen x position with respects to an origin of top-left)
 * `$05$: Variable 005` zelda posY - `number`. (Zelda's on screen y position with respects to an origin of top-left)
 * `$06$: Variable 006` enemy isAlive - `number`. (Indicates whether an on screen enemy is alive. Prevents the collision detection from firing again after an enemy is hidden. - should be a local variable)
-* `$07$: Variable 007` collectable - `byte`. (Flag 1 represents the enemy dropping a rupee. Flag 2 represents the enemy dropping a heart, Flag 3 is the boomerang which can only be used on the screen it's found on)
+* `$07$: Variable 007` collectable - `byte`.
+  * (Flag 1 represents the enemy dropping a rupee)
+  * (Flag 2 represents the enemy dropping a heart)
+  * (Flag 3 is the boomerang which can only be used on the screen it's found on)
+  * (Flag 4 is the empty bottle)
+  * (Flag 5 is the filled bottle)
 * `$08$: Variable 008` rupees - `number`. (Indicates the number of rupees Zelda has collected)
 * `$09$: Variable 009` has ladder - `boolean`. (Indicates whether the player has collected the ladder)
 
