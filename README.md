@@ -43,6 +43,7 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
   * (Flag 3 is the boomerang which can only be used on the screen it's found on)
   * (Flag 4 is the empty bottle)
   * (Flag 5 is the filled bottle)
+  * (Flag 6 is the vial of wind)
 * `$08$: Variable 008` rupees - `number`. (Indicates the number of rupees Zelda has collected)
 * `$09$: Variable 009` has ladder - `boolean`. (Indicates whether the player has collected the ladder)
 
