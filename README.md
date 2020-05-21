@@ -12,9 +12,10 @@ Sprites created/modified with Photoshop and exported with the following settings
 * Tilemaps created with [Tiled](https://www.mapeditor.org/)
 
 ## Compromises due to imposed restrictions
-Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame restrictions are the most challenging and because of there are a number of compromises.
+Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame restrictions are the most challenging and because of there are a number of compromises
 * On screens without an enemy the wand animation is 3 frames in each direction. On scenes with enemies it is reduced to a single frame
-* The collision detection triggers can only handle 1 enemy per screen. Any more triggers significant slowdown. 2 enemies is passable, any more is unbearable.
+* The collision detection triggers can only handle 1 enemy per screen. Any more triggers significant slowdown. 2 enemies is passable, any more is unbearable
+* Screen transitions start Zelda at fixed central points, not where she left the screen
 * The unit counter of ruppees is baked into the background
 * The empty hearts indicator is baked into the background
 * The boomerang can only be thrown on the screen it's found on. (Unlike the original game, it does not cost rupees to throw. Keeping with the original game, it doesn't return to Zelda when thrown)
@@ -44,6 +45,7 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
   * (Flag 4 is the empty bottle)
   * (Flag 5 is the filled bottle)
   * (Flag 6 is the vial of wind)
+  * (Flag 7 is the firestorm spell)
 * `$08$: Variable 008` rupees - `number`. (Indicates the number of rupees Zelda has collected)
 * `$09$: Variable 009` has ladder - `boolean`. (Indicates whether the player has collected the ladder)
 
