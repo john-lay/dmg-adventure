@@ -23,3 +23,7 @@ who hunger and are chilled by the wind.
 
 You will be blessed a thousands times, a thousand fair princess.
 
+## Ogbam forest shop
+Come here bright young lady, I have a wonderful bargin for you. Take some Ogbam herb for free, then look around, there's plenty to buy!
+
+That was a wise purchase young princess
