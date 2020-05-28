@@ -48,6 +48,8 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
   * (Flag 7 is the firestorm spell)
 * `$08$: Variable 008` rupees - `number`. (Indicates the number of rupees Zelda has collected)
 * `$09$: Variable 009` has ladder - `boolean`. (Indicates whether the player has collected the ladder)
+* `$10$: Variable 010` purchasable - `byte`.
+  * (Flag 1 represents the shield bought from Ogbam forest shop)
 
 ## New Scene checklist
 The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
