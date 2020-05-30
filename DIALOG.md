@@ -27,3 +27,24 @@ You will be blessed a thousands times, a thousand fair princess.
 Come here bright young lady, I have a wonderful bargin for you. Take some Ogbam herb for free, then look around, there's plenty to buy!
 
 That was a wise purchase young princess
+
+## Moblin's head Inn
+
+### Barman
+Welcome to the Moblin's head inn my princess, you look dry. Have a cup of Andor's cider on the house.
+
+I have a spell of Calm to sell, but it will cost you 100 rupees.
+
+That is wise beyond your years, the spell of Calm will help you when you need it most, use it well and look out for yourself
+on the lonely plain of Andor.
+
+### Woman
+You look like an honest maid, sit a moment. It is said those who go deep into the earth learn to overcome the sins of greed. That may be true,
+but I do know this: a candle and a silver key can bring you bliss. Hurry on now lass, time's a wastin'.
+
+### Man with dagger
+Why spend a whole lifetime being defeated like me? Get it over with quick, go home, give up.
+You're patient, I can see you're not one to surrender. Alright, take this dagger from me, it may do you more service than it ever did me.
+
+### Exhausted guy
+I'm so exhaused from my travels, if only I'd known to cross the chasm rift with the ladder, it would've saved me months.
