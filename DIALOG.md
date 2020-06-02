@@ -48,3 +48,30 @@ You're patient, I can see you're not one to surrender. Alright, take this dagger
 
 ### Exhausted guy
 I'm so exhaused from my travels, if only I'd known to cross the chasm rift with the ladder, it would've saved me months.
+
+## Earth Shrine
+
+### Shurmak
+Beware the evils of greed, act quickly, think on your feet and you will be rewarded.
+
+### Lort 1
+Do not come in here, you are not wanted, I am Lort and this is my shrine, all mine.
+
+### Red sheepman
+Hey-de-hee, who thee be, you're no friend to us down here.
+
+### Jade ring chest
+Who who, Oh who, what do we have here, a human person's coming close, why, what a great event, whoa, who, who
+
+### Blue sheepman
+Ugh. I thought I was alone here. Lort! An enemy is in your cave.
+Lort I couldn't stop her, get ready to fight!
+
+### Lort 2
+I said this is my cave, mine. This is the shrine of rock and I am Lort! Go away, take nothing, it's all mine.
+
+### Yellow sheepman
+Hey who goes there, aren't you an enemy of my boss?
+
+
+
