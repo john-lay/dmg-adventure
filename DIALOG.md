@@ -71,7 +71,8 @@ Lort I couldn't stop her, get ready to fight!
 I said this is my cave, mine. This is the shrine of rock and I am Lort! Go away, take nothing, it's all mine.
 
 ### Yellow sheepman
-Hey who goes there, aren't you an enemy of my boss?
+Hey who goes there, aren't you an enemy of my boss Lort? You can't come in here.
+Hey Lort, watch out. She's coming!
 
 
 
