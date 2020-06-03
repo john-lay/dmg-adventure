@@ -59,6 +59,7 @@ Do not come in here, you are not wanted, I am Lort and this is my shrine, all mi
 
 ### Red sheepman
 Hey-de-hee, who thee be, you're no friend to us down here.
+I've failed in my mission. Lort this enemy is coming!
 
 ### Jade ring chest
 Who who, Oh who, what do we have here, a human person's coming close, why, what a great event, whoa, who, who
