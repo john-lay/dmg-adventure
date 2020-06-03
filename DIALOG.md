@@ -75,5 +75,8 @@ I said this is my cave, mine. This is the shrine of rock and I am Lort! Go away,
 Hey who goes there, aren't you an enemy of my boss Lort? You can't come in here.
 Hey Lort, watch out. She's coming!
 
+### Lort 3 (boss fight)
+You've been taking my things. Put them back, don't touch anything, those are all my gems.
+
 
 
