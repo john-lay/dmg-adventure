@@ -20,6 +20,18 @@ Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame
 * The empty hearts indicator is baked into the background
 * The boomerang can only be thrown on the screen it's found on. (Unlike the original game, it does not cost rupees to throw. Keeping with the original game, it doesn't return to Zelda when thrown)
 
+## Improvements (wishlist)
+A list of suggestions to improve the game/engine:
+* Support multiple enemies per screen
+* Use collected items on any screen
+* Implement menu screen
+* Implement save game
+
+## Artistic licence
+Personal preference deviations from the original game:
+* Ogbam forest shop restores all health when the shop keeper offers free Ogbam herb.
+* Mobilin Inn restores all health when the barkeep offers some Andor cider.
+
 ## Variable list
 
 A listing of variables and their types in re-usable components (Actors/Scenes)
