@@ -12,7 +12,7 @@ I am collapsed with thirst and dryness.
 Bless you princess, you have saved the life of a weary old woman, I offer you these treasures.
 
 ## 1 screen west of vision henge with empty water bottle
-I am shermak your guide, I have known you since you were a child. You were given a difficult challenge.
+I am Shurmak your guide, I have known you since you were a child. You were given a difficult challenge.
 You will have to go far and overcome great danger. Stay calm and use your knowledge and strength to defeat your enemies.
 Remember what you learn along the way and persevere. Go now to the one who has a bed but never sleeps, 
 where by its side the red willow weeps, and to its mouth that never speaks.
