@@ -26,6 +26,7 @@ A list of suggestions to improve the game/engine:
 * Use collected items on any screen
 * Implement menu screen
 * Implement save game
+* The overworld walls should be drawn from a bottom up perspective
 
 ## Artistic licence
 Personal preference deviations from the original game:
