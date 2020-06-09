@@ -69,6 +69,7 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
 * `$11$: Variable 011` dungeon items - `byte`.
   * (Flag 1 represents the map)
   * (Flag 2 represents the compass)
+  * (Flag 3 represents the red boots)
 
 ## New Scene checklist
 The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
