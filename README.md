@@ -70,6 +70,9 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
   * (Flag 1 represents the map)
   * (Flag 2 represents the compass)
   * (Flag 3 represents the red boots)
+  * (Flag 4 represents the jade ring)
+* `$12$: Variable 012` defeated sheepmen - `byte`.
+  * (Flag 1 represents the first (red) sheepman - encountered 1 room north of the jade ring)
 
 ## New Scene checklist
 The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
