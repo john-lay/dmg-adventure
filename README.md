@@ -74,6 +74,7 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
 * `$12$: Variable 012` defeated sheepmen - `byte`.
   * (Flag 1 represents the first (red) sheepman - encountered 1 room north of the jade ring)
   * (Flag 2 represents the second (blue) sheepman - encountered east, north, east from the jade ring)
+* `$13$: Variable 013` lort given speech - `boolean`. (Indicates whether Lort has given his monologue)
 
 ## New Scene checklist
 The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
