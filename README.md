@@ -6,6 +6,8 @@ A port of Zelda's Adventure for the Philips CD-i to the Gameboy created with [GB
 ![screenshot 2](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-2.gif)
 ![screenshot 3](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-3.gif)
 
+# Developer notes
+
 ## Graphics
 Sprites created/modified with Photoshop and exported with the following settings:
 * "Save for Web..." select PNG-8 from the template dropdown
@@ -27,11 +29,14 @@ A list of suggestions to improve the game/engine:
 * Implement menu screen
 * Implement save game
 * The overworld walls should be drawn from a bottom up perspective
+* Sound
 
 ## Artistic licence
 Personal preference deviations from the original game:
 * Ogbam forest shop restores all health when the shop keeper offers free Ogbam herb.
 * Mobilin Inn restores all health when the barkeep offers some Andor cider.
+
+# Technical notes
 
 ## Variable list
 
@@ -76,6 +81,11 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
   * (Flag 2 represents the second (blue) sheepman - encountered east, north, east from the jade ring)
   * (Flag 3 represents the third (yellow) sheepman - encountered just before the fight with Lort)
 * `$13$: Variable 013` lort given speech - `boolean`. (Indicates whether Lort has given his monologue)
+* `$14$: Variable 014` bone1 posX - `number`. (Lort's first bone's screen x position)
+* `$15$: Variable 015` bone1 posY - `number`. (Lort's first bone's screen y position)
+* `$16$: Variable 016` bone offscreen - `boolean`. (Indicates whether Lort's bones have been thrown off screen)
+* `$17$: Variable 017` bone2 posX - `number`. (Lort's second bone's screen x position)
+* `$18$: Variable 018` bone2 posY - `number`. (Lort's second bone's screen y position)
 
 ## New Scene checklist
 The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
