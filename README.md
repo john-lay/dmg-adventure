@@ -12,6 +12,13 @@ A port of Zelda's Adventure for the Philips CD-i to the Gameboy created with [GB
 Sprites created/modified with Photoshop and exported with the following settings:
 * "Save for Web..." select PNG-8 from the template dropdown
 * Tilemaps created with [Tiled](https://www.mapeditor.org/)
+* All tiles and sprites reused from [Link's awakening disassembly project](https://github.com/zladx/LADX-Disassembly/tree/master/src/gfx) with the exception of:
+  * Zelda's sprite (tweaked to fit in a 16x16 grid) from Oracle of Ages/Seasons
+  * Collectable Ladder inspired by original Zelda ladder, but resized to 8x16
+  * Candle inspired by original Zelda
+  * Empty/full Bottle inspired by Tracy's Secret Medicine
+  * Jade ring inspired by Oracle of Ages/Seasons
+  * Game logo
 
 ## Compromises due to imposed restrictions
 Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame restrictions are the most challenging and because of there are a number of compromises
