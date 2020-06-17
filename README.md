@@ -6,13 +6,19 @@ A port of Zelda's Adventure for the Philips CD-i to the Gameboy created with [GB
 ![screenshot 2](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-2.gif)
 ![screenshot 3](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-3.gif)
 
+## Installation
+
+If you want to play the game, the ROM can be downloaded from [here](https://github.com/john-lay/dmg-adventure/releases/download/v0.1.0/DMG.Adventure.v0.1.0.gb)
+
+If you want to build or edit the game you will need a copy of GB Studio (The game was built with version `1.2.1`), which can be downloaded from [here](https://www.gbstudio.dev/).
+The scenes are build using [Tiled](https://www.mapeditor.org/) and can be found in `/assets/tilemaps` and tilesets are taken from [Link's awakening disassembly project](https://github.com/zladx/LADX-Disassembly/tree/master/src/gfx).
+
 # Developer notes
 
 ## Graphics
 Sprites created/modified with Photoshop and exported with the following settings:
 * "Save for Web..." select PNG-8 from the template dropdown
-* Tilemaps created with [Tiled](https://www.mapeditor.org/)
-* All tiles and sprites reused from [Link's awakening disassembly project](https://github.com/zladx/LADX-Disassembly/tree/master/src/gfx) with the exception of:
+Original tilesets and sprites:
   * Zelda's sprite (tweaked to fit in a 16x16 grid) from Oracle of Ages/Seasons
   * Collectable Ladder inspired by original Zelda ladder, but resized to 8x16
   * Candle inspired by original Zelda
@@ -27,16 +33,7 @@ Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame
 * Screen transitions start Zelda at fixed central points, not where she left the screen
 * The unit counter of ruppees is baked into the background
 * The empty hearts indicator is baked into the background
-* The boomerang can only be thrown on the screen it's found on. (Unlike the original game, it does not cost rupees to throw. Keeping with the original game, it doesn't return to Zelda when thrown)
-
-## Improvements (wishlist)
-A list of suggestions to improve the game/engine:
-* Support multiple enemies per screen
-* Use collected items on any screen
-* Implement menu screen
-* Implement save game
-* The overworld walls should be drawn from a bottom up perspective
-* Sound
+* The boomerang, dagger and firestorm spell can only be used on the screen they're found on. Unlike the original game, they do not cost rupees to use. Keeping with the original game, the boomerang does not return to Zelda when thrown
 
 ## Artistic licence
 Personal preference deviations from the original game:
@@ -94,26 +91,3 @@ A listing of variables and their types in re-usable components (Actors/Scenes)
 * `$17$: Variable 017` bone2 posX - `number`. (Lort's second bone's screen x position)
 * `$18$: Variable 018` bone2 posY - `number`. (Lort's second bone's screen y position)
 * `$18$: Variable 018` lort health - `number`. (Lort's health, starts and 10)
-
-## New Scene checklist
-The best way to create a new scene is to copy and paste another scene. If you need to create one from scratch, there are a number of steps that need to be taken.
-
-Due to a bug where copy and pasted events default the affected actor to the player (currently using GB Studio 1.2.1) a number of scene initialisation scripts need to be manually adjusted. Here's a reminder (mainly for me) of what needs to be set up:
-* Copy the `firerod animated` actor to the new scene
-* Copy the `hide wand` script from the _vision henge_ `On Init` to the new scene's `On Init`
-* Edit the copied `hide wand` script and change to actor reference to `Self (firerod) animated`
-* Edit the copied `firerod animated` actor. For all actors _except_ the `zelda reference position` and the reference to the `Player`'s direction need to be set to the `Self (firerod) animated` actor
-* Copy the `Joypad Input: Attach Script To Button` script from the _vision henge_ `On Init` to the new scene's `On Init`
-* Edit the copied `Joypad Input: Attach Script To Button` script and change the parameter for the `Actor: Invoke Script` to the `firerod animated`
-* Copy the `rupee - hundreds` and the `rupee - tens` actors to the new scene
-* Copy the `heart 1`, `heart 2` and the `heart 3` actors to the new scene
-* Copy the `initialise scene` script from the _vision henge_ `On Init` to the new scene's `On Init`
-* Edit the copied `initialise scene` script:
-  * (Under `set rupee counter`) Change the `init hundreds` script and rename `$L0$: Local 0` to `rupee - hundreds`
-  * (Under `set rupee counter`) Change the `init tens` script and rename `$L1$: Local 1` to `rupee - tens`
-  * (Under `set rupee counter`)Change the `init units` script and rename `$L2$: Local 2` to `rupee - units`
-  * (Under `set rupee counter`) Change the `Actor: Set Animation Frame Using Variables` reference to `rupees - hundreds` and `rupees - tens` respectively 
-  * (Under `hide hearts`) Change the `Actor: Hide` to `heart 1`, `heart 2` and `heart 3` respectively
-  * (Under `set hearts`) For switch cases 1 and 2, change all actor references to `heart 1`
-  * (Under `set hearts`) For switch cases 3 and 4, change actor references inside `full heart 1` to `heart 1` and all other actor references to `heart 1`
-  * (Under `set hearts`) For switch cases 5 and 6, change actor references inside `full heart 1` to `heart 1` and `full heart 2` to `heart 2`. Change all other actor references to `heart 3`
