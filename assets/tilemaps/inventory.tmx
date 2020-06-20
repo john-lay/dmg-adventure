@@ -3,7 +3,6 @@
  <tileset firstgid="1" source="font.tsx"/>
  <tileset firstgid="161" source="dungeon-items.tsx"/>
  <tileset firstgid="177" source="quest-items.tsx"/>
- <tileset firstgid="215" source="font-large.tsx"/>
  <layer id="1" name="Tile Layer 1" width="20" height="18">
   <data encoding="csv">
 128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,
