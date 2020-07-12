@@ -26,6 +26,10 @@ Original tilesets and sprites:
   * Jade ring inspired by Oracle of Ages/Seasons
   * Game logo
 
+## Sound
+* Tracker files (.mod) sourced from [modarchive.org](https://modarchive.org/)
+* Modified with [OpenMPT](https://openmpt.org/)
+
 ## Compromises due to imposed restrictions
 Each scene can only have 9 actors, 25 Frames and 9 triggers. The actor and frame restrictions are the most challenging and because of there are a number of compromises
 * On screens without an enemy the wand animation is 3 frames in each direction. On scenes with enemies it is reduced to a single frame
