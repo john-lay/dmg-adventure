@@ -5,6 +5,7 @@ A port of Zelda's Adventure for the Philips CD-i to the Gameboy created with [GB
 ![screenshot 1](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-1.png)
 ![screenshot 2](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-2.gif)
 ![screenshot 3](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-3.gif)
+![screenshot 4](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-4.gif)
 
 ## Installation
 
