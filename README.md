@@ -2,6 +2,8 @@
 
 A port of Zelda's Adventure for the Philips CD-i to the Gameboy created with [GB Studio](https://www.gbstudio.dev/).
 
+Play it online over at [itch.io](https://john-lay.itch.io/zeldas-adventure)
+
 ![screenshot 1](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-1.png)
 ![screenshot 2](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-2.gif)
 ![screenshot 3](https://github.com/john-lay/dmg-adventure/raw/develop/screenshots/screen-3.gif)
